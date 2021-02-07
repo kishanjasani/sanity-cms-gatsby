@@ -2,7 +2,9 @@ import React from 'react';
 
 const BearsPage = () => {
     return (
-        <div>This is Bears page!</div>
+        <>
+            <div>This is Bears page!</div>
+        </>
     )
 }
 

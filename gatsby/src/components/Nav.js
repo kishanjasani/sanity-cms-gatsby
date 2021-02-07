@@ -15,10 +15,10 @@ const Nav = () => {
                     <Link to="/">Logo</Link>
                 </li>
                 <li>
-                    <Link to="/">Slice Master</Link>
+                    <Link to="/slicemasters">Slice Master</Link>
                 </li>
                 <li>
-                    <Link to="/">Order Ahead!</Link>
+                    <Link to="/order">Order Ahead!</Link>
                 </li>
             </ul>
         </nav>
