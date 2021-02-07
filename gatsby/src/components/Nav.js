@@ -15,6 +15,7 @@ const NavStyles = styled.nav`
         padding: 0;
         text-align: center;
         list-style: none;
+        margin-top: -10rem;
     }
 
     li {
@@ -44,6 +45,10 @@ const NavStyles = styled.nav`
         text-decoration: none;
 
         &:hover {
+            color: var( --red );
+        }
+
+        &[aria-current='page'] {
             color: var( --red );
         }
     }
