@@ -1,8 +1,12 @@
 import React from 'react';
+import Nav from '../components/Nav';
 
 const HomePage = () => {
     return (
-        <div>This is home page!</div>
+        <>
+            <Nav />
+            <div>This is home page!</div>
+        </>
     )
 }
 
